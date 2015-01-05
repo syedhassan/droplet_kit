@@ -12,3 +12,7 @@ version = case (ENV['ACTIVESUPPORT_VERSION'] || '4')
           end
 
 gem 'activesupport', version
+
+gem 'resource_kit',
+  github: 'nanzhong/resource_kit',
+  ref: '50eb28da8cda7c3f506c0d742f2b92799610f80c'
